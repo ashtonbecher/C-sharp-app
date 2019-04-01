@@ -13,7 +13,7 @@ namespace C03
     /* Name: Ashton Becher
     * Date: March 13, 2019
     * Project: C03
-    * Description: Windows for that inplements data linking to modify a ist of student information
+    * Description: Windows form that implements data linking to modify a ist of student information
     */
     
     public partial class frmAddStudents : Form
