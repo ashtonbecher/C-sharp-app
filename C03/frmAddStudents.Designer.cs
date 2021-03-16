@@ -43,73 +43,86 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(29, 35);
+            this.lblName.Location = new System.Drawing.Point(22, 28);
+            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(102, 17);
+            this.lblName.Size = new System.Drawing.Size(78, 13);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Student Name:";
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(29, 126);
+            this.lblID.Location = new System.Drawing.Point(22, 102);
+            this.lblID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(78, 17);
+            this.lblID.Size = new System.Drawing.Size(61, 13);
             this.lblID.TabIndex = 1;
             this.lblID.Text = "Student ID:";
             // 
             // lblMidterm
             // 
             this.lblMidterm.AutoSize = true;
-            this.lblMidterm.Location = new System.Drawing.Point(282, 126);
+            this.lblMidterm.Location = new System.Drawing.Point(212, 102);
+            this.lblMidterm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMidterm.Name = "lblMidterm";
-            this.lblMidterm.Size = new System.Drawing.Size(62, 17);
+            this.lblMidterm.Size = new System.Drawing.Size(47, 13);
             this.lblMidterm.TabIndex = 2;
             this.lblMidterm.Text = "Midterm:";
             // 
             // lblFinal
             // 
             this.lblFinal.AutoSize = true;
-            this.lblFinal.Location = new System.Drawing.Point(406, 126);
+            this.lblFinal.Location = new System.Drawing.Point(304, 102);
+            this.lblFinal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFinal.Name = "lblFinal";
-            this.lblFinal.Size = new System.Drawing.Size(42, 17);
+            this.lblFinal.Size = new System.Drawing.Size(32, 13);
             this.lblFinal.TabIndex = 3;
             this.lblFinal.Text = "Final:";
             // 
             // txtStudentName
             // 
-            this.txtStudentName.Location = new System.Drawing.Point(32, 55);
+            this.txtStudentName.Location = new System.Drawing.Point(24, 45);
+            this.txtStudentName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(444, 22);
+            this.txtStudentName.Size = new System.Drawing.Size(334, 20);
             this.txtStudentName.TabIndex = 1;
+            this.txtStudentName.Tag = "Student Name";
             // 
             // txtStudentID
             // 
-            this.txtStudentID.Location = new System.Drawing.Point(32, 146);
+            this.txtStudentID.Location = new System.Drawing.Point(24, 119);
+            this.txtStudentID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(100, 22);
+            this.txtStudentID.Size = new System.Drawing.Size(76, 20);
             this.txtStudentID.TabIndex = 2;
+            this.txtStudentID.Tag = "Student ID";
             // 
             // txtMidterm
             // 
-            this.txtMidterm.Location = new System.Drawing.Point(285, 146);
+            this.txtMidterm.Location = new System.Drawing.Point(214, 119);
+            this.txtMidterm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMidterm.Name = "txtMidterm";
-            this.txtMidterm.Size = new System.Drawing.Size(59, 22);
+            this.txtMidterm.Size = new System.Drawing.Size(45, 20);
             this.txtMidterm.TabIndex = 3;
+            this.txtMidterm.Tag = "Midterm";
             // 
             // txtFinal
             // 
-            this.txtFinal.Location = new System.Drawing.Point(409, 146);
+            this.txtFinal.Location = new System.Drawing.Point(307, 119);
+            this.txtFinal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFinal.Name = "txtFinal";
-            this.txtFinal.Size = new System.Drawing.Size(67, 22);
+            this.txtFinal.Size = new System.Drawing.Size(51, 20);
             this.txtFinal.TabIndex = 4;
+            this.txtFinal.Tag = "Final";
             // 
             // btnOk
             // 
             this.btnOk.AutoSize = true;
-            this.btnOk.Location = new System.Drawing.Point(269, 198);
+            this.btnOk.Location = new System.Drawing.Point(202, 161);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 27);
+            this.btnOk.Size = new System.Drawing.Size(56, 23);
             this.btnOk.TabIndex = 5;
             this.btnOk.Text = "&Ok";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -119,9 +132,10 @@
             // 
             this.btnCancel.AutoSize = true;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(401, 198);
+            this.btnCancel.Location = new System.Drawing.Point(301, 161);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 27);
+            this.btnCancel.Size = new System.Drawing.Size(56, 23);
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -130,10 +144,10 @@
             // frmAddStudents
             // 
             this.AcceptButton = this.btnOk;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(510, 257);
+            this.ClientSize = new System.Drawing.Size(382, 209);
             this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOk);
@@ -145,6 +159,7 @@
             this.Controls.Add(this.lblMidterm);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.lblName);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmAddStudents";
             this.Text = "Enter Student Information";
             this.ResumeLayout(false);
