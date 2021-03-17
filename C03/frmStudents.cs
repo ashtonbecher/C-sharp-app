@@ -37,7 +37,7 @@ namespace C03
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
-            frmAddStudents addForm = new frmAddStudents();
+            FrmAddStudents addForm = new FrmAddStudents();
             Student s = addForm.GetNewStudent();
 
             if (s != null)
@@ -61,7 +61,7 @@ namespace C03
             if (x != -1)
             {
                 Student student = students[x];
-                frmAddStudents updateForm = new frmAddStudents();
+                FrmAddStudents updateForm = new FrmAddStudents();
                 student = updateForm.UpdateStudent(student);
 
                 if (student != null)

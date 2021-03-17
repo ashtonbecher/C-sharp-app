@@ -16,9 +16,9 @@ namespace C03
     * Description: Windows form that implements data linking to modify a ist of student information
     */
     
-    public partial class frmAddStudents : Form
+    public partial class FrmAddStudents : Form
     {
-        public frmAddStudents()
+        public FrmAddStudents()
         {
             InitializeComponent();
         }

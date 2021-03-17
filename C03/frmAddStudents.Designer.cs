@@ -1,6 +1,6 @@
 ﻿namespace C03
 {
-    partial class frmAddStudents
+    partial class FrmAddStudents
     {
         /// <summary>
         /// Required designer variable.
