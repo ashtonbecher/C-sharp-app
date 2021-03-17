@@ -58,7 +58,7 @@ namespace C03
                 Validator.IsWithinRange(txtStudentID, 1, 999999) && Validator.IsWithinRange(txtMidterm, 0, 100) && Validator.IsWithinRange(txtFinal, 0, 100);
         }
         
-        private void btnOk_Click(object sender, EventArgs e)
+        private void BtnOk_Click(object sender, EventArgs e)
         {
            if (IsValid())
              {
@@ -72,7 +72,7 @@ namespace C03
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
             Close();
         }

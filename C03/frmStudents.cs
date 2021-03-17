@@ -35,7 +35,7 @@ namespace C03
             }
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void BtnAdd_Click(object sender, EventArgs e)
         {
             frmAddStudents addForm = new frmAddStudents();
             Student s = addForm.GetNewStudent();
@@ -48,13 +48,13 @@ namespace C03
             }
         }
 
-        private void frmStudents_Load(object sender, EventArgs e)
+        private void FrmStudents_Load(object sender, EventArgs e)
         {
             students = StudentDB.GetStudents();
             FillStudentListBox();
         }
 
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void BtnUpdate_Click(object sender, EventArgs e)
         {
             int x = lstStudents.SelectedIndex;
 
@@ -78,7 +78,7 @@ namespace C03
             }
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void BtnDelete_Click(object sender, EventArgs e)
         {
             int x = lstStudents.SelectedIndex;
 
@@ -95,7 +95,7 @@ namespace C03
             }
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }

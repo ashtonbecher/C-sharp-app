@@ -28,7 +28,7 @@ namespace C03
         public string CalcLetterGrade()
         {
             int grade = (MidtermGrade + FinalGrade) / 2;
-            string letter = "";
+            string letter;
 
             string[] letterGrade = { "A", "B", "C", "D", "F" };
             int[] gradeScale = { 90, 80, 70, 60, 50 };

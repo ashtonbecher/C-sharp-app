@@ -126,7 +126,7 @@
             this.btnOk.TabIndex = 5;
             this.btnOk.Text = "&Ok";
             this.btnOk.UseVisualStyleBackColor = true;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
             // 
             // btnCancel
             // 
@@ -139,7 +139,7 @@
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "&Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // frmAddStudents
             // 
